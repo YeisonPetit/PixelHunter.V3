@@ -6,7 +6,7 @@ import { SearchProvider } from "./context/SearchContext"; // ← Importa esto
 import Header from "./components/Header";
 import Carts from "./components/carts";
 import Sidebar from "./components/sidebar";
-import Authe from "./pages/authe";
+import Authe from "./pages/Authe";
 import Settings from "./pages/settings";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
