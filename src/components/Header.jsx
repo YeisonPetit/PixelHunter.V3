@@ -37,13 +37,13 @@ export default function Header() {
             <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline size-0.5 fill-current">
               <circle r={1} cx={1} cy={1} />
             </svg>
-            Join us in Denver from June 7 – 9 to see what’s coming next.
+            Join our community of 50K+ gamers worldwide
           </p>
           <a
             href="/src/pages/authe.jsx"
             className="flex-none rounded-full bg-white/10 px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
-            Register now <span aria-hidden="true">&rarr;</span>
+            Join Discord <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
         <div className="flex flex-1 justify-end">

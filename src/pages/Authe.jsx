@@ -5,7 +5,6 @@ import * as FaIcons from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 
 export default function Authe() {
-  // Placeholder function for Google sign-in
   const handleSubmit = LoginForm.handleSubmit;
 
   return (
@@ -22,7 +21,6 @@ export default function Authe() {
       </div>
 
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-        {/* LoginForm ya tiene su propio <form>, no lo envuelvas en otro */}
         <LoginForm />
 
         <div className="mt-6">
