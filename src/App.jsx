@@ -4,8 +4,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AutheContext";
 import { SearchProvider } from "./context/SearchContext"; // ← Importa esto
 import Header from "./components/Header";
-import Carts from "./components/Carts";
-import Sidebar from "./components/Sidebar";
+import Carts from "./components/Carts.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 import Authe from "./pages/Authe";
 import Settings from "./pages/Settings";
 import Profile from "./pages/Profile";
