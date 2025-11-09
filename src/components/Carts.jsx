@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useSearch } from '../context/SearchContext';
+import { useSearch } from '../context/SearchContext.jsx';
 import api from '../services/rawApi.js';
 
 
