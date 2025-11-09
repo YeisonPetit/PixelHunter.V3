@@ -4,10 +4,10 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AutheContext";
 import { SearchProvider } from "./context/SearchContext"; // ← Importa esto
 import Header from "./components/Header";
-import Carts from "./components/carts";
-import Sidebar from "./components/sidebar";
+import Carts from "./components/Carts";
+import Sidebar from "./components/Sidebar";
 import Authe from "./pages/Authe";
-import Settings from "./pages/settings";
+import Settings from "./pages/Settings";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 
